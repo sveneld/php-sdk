@@ -26,6 +26,7 @@
     "psr/clock": "^1.0",
     "psr/container": "^2.0",
     "psr/event-dispatcher": "^1.0",
+    "psr/http-client": "^1.0",
     "psr/http-factory": "^1.1",
     "psr/http-message": "^2.0",
     "psr/log": "^1.0 || ^2.0 || ^3.0",
@@ -34,6 +35,7 @@
   },
   "require-dev": {
     "php-cs-fixer/shim": "^3.91",
+    "php-http/curl-client": "^2.3",
     "phpstan/phpstan": "^2.1",
     "phpunit/phpunit": "^10.5",
     "psr/cache": "^3.0",
@@ -64,6 +66,7 @@
       "Mcp\\Example\\ExplicitRegistration\\": "examples/explicit-registration/",
       "Mcp\\Example\\SchemaShowcase\\": "examples/schema-showcase/",
       "Mcp\\Example\\ClientLogging\\": "examples/client-logging/",
+      "Mcp\\Example\\OAuth2Demo\\": "examples/oauth2-demo/",
       "Mcp\\Tests\\": "tests/"
     }
   },
